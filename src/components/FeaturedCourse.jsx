@@ -55,7 +55,7 @@ const FeaturedCourse = () => {
             </div>
           ))}
         </div>
-        <div className="mt-10 text-center w-full">
+        <div className="my-16 text-center w-full">
           <button
             onClick={showMore}
             className="px-4 py-2 bg-custom-gradient  mx-auto text-white rounded-md  transition ease-in-out duration-300 transform hover:scale-110"
