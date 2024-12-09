@@ -11,6 +11,15 @@ import card3 from "../assets/card3.png";
 import card4 from "../assets/card4.png";
 import card5 from "../assets/card5.png";
 import card6 from "../assets/card6.png";
+
+//courses section
+import Ccard1 from "../assets/category1.png";
+import Ccard2 from "../assets/category2.png";
+import Ccard3 from "../assets/category3.png";
+import Ccard4 from "../assets/category4.png";
+import Ccard5 from "../assets/category5.png";
+import Ccard6 from "../assets/category6.png";
+
 export const headerNavigation = [
   { icons: <FaHome />, title: "Home", link: "/" },
 
@@ -24,7 +33,7 @@ export const headerNavigation = [
   { icons: <FaShoppingCart />, title: "Events", link: "/events" },
 ];
 
-
+//card section
 export const cardData=[
   {
     title:"Motion Graphics: Create a Nice Typography Animation",
@@ -106,5 +115,44 @@ export const cardData=[
     image: card3,
      date:"Nov 20, 2022"
 
+  },
+]
+//courses section
+export const cardData2=[
+  {
+    image: Ccard1,
+    title: "Digta ",
+    title2:"Marketing",
+    courses:"25 Courses"
+  },
+  {
+    image: Ccard2,
+    title: "Web ",
+    title2:"Development",
+    courses:"16 Courses"
+  },
+  {
+    image: Ccard3,
+    title: "Art & ",
+    title2:"Humanities",
+    courses:"76 Courses"
+  },
+  {
+    image: Ccard4,
+    title: "Personal ",
+    title2:"Development",
+    courses:"25 Courses",
+  },
+  {
+    image: Ccard5,
+    title: "IT and ",
+    title2:"Software",
+    courses:"125 Courses"
+  },
+  {
+    image: Ccard6,
+    title: "Graphic ",
+    title2:"Design",
+    courses:"215 Courses"
   },
 ]
