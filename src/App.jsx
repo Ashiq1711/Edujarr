@@ -4,6 +4,7 @@ import BrandAnimation from './components/BrandAnimation'
 import FeaturedCourse from './components/FeaturedCourse'
 import Courses from './components/Courses'
 import Categoty from './components/Categoty'
+import Testimonials from './components/Testimonials'
 
 const App = () => {
   return (
@@ -13,6 +14,7 @@ const App = () => {
       <FeaturedCourse/>
       <Courses/>
       <Categoty/>
+      <Testimonials/>
     </main>
   )
 }

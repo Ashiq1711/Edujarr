@@ -8,7 +8,7 @@ import {
 import Container from "../components/Container";
 import logo from "../assets/logo.png";
 import { headerNavigation } from "../constant";
-import { NavLink } from "react-router-dom";
+import { NavLink, useNavigate } from "react-router-dom";
 import { FaAngleDown } from "react-icons/fa6";
 import { AiTwotoneDelete } from "react-icons/ai";
 import { FaRegCircleUser } from "react-icons/fa6";
@@ -19,11 +19,12 @@ import { FaSignInAlt } from "react-icons/fa";
 import Title from "./Title";
 import SocialIcons from "./SocialIcons";
 const Navbar = () => {
+  const navigate=useNavigate()
   let [isOpen, setIsOpen] = useState(false);
   return (
     <nav className="sticky top-0 z-50 bg-white ">
       <Container className="flex items-center justify-between py-5 md:py-5 gap-x-3 md:gap-x-7 ">
-        <img src={logo} alt="" className="md:w-[190px] w-36" />
+        <img onClick={()=>navigate("/")} src={logo} alt="" className="md:w-[190px] w-36 cursor-pointer" />
         <div className="hidden md:inline-flex items-center gap-10 lg:gap-10 text-start uppercase ">
           {headerNavigation.map((item, index) => (
             <div key={index}>
