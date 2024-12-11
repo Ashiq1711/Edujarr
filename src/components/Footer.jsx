@@ -56,7 +56,7 @@ const Footer = () => {
   <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-6 gap-10 ">
   <div className="col-span-2">
           <div className="flex flex-col gap-6">
-            <img className="w-32" src={logo} alt="" />
+            <img className="w-40" src={logo} alt="" />
             <p className="text-base font-font1 w h-full lg:w-[80%]">
               Veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
               ex ea commodo consequat. Duis aute irure dolor in reprehenderit in

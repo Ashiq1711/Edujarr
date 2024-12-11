@@ -14,12 +14,38 @@ const Categoty = () => {
     slidesToShow: 6,
     slidesToScroll: 1,
     arrows: false,
+    responsive: [
+      {
+        breakpoint: 1024,
+        settings: {
+          slidesToShow: 3,
+          slidesToScroll: 3,
+          infinite: true,
+          dots: true
+        }
+      },
+      {
+        breakpoint: 600,
+        settings: {
+          slidesToShow: 2,
+          slidesToScroll: 2,
+          initialSlide: 2
+        }
+      },
+      {
+        breakpoint: 480,
+        settings: {
+          slidesToShow: 1,
+          slidesToScroll: 1
+        }
+      }
+    ]
 
   };
   return (
     <div className="bg-custom2">
       <Container>
-        <div className="text-center w-[550px] mx-auto ">
+        <div className="text-center md:w-[550px] mx-auto ">
           <Title text1="Top" text2="Categories" />
           <p className="text-[20px] py-3 text-secondary font-medium font-font1">
             12,000+ unique online course list designs

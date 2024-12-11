@@ -10,9 +10,9 @@ const FeaturedCourse = () => {
   return (
     <div className="bg-custom2">
       <Container>
-        <div className="text-center w-[500px] mx-auto py-10">
-          <Title text1={"Featured"} text2={"Course"} />
-          <p className="text-base font-font1 mt-10">
+        <div className="text-center md:w-[500px] mx-auto md:py-10">
+          <Title  text1={"Featured"} text2={"Course"} />
+          <p className="text-base font-font1 md:mt-10">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
             eiusmod temporidunt ut labore veniam...
           </p>

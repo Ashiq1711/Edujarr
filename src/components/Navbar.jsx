@@ -22,10 +22,10 @@ const Navbar = () => {
   const navigate=useNavigate()
   let [isOpen, setIsOpen] = useState(false);
   return (
-    <nav className="sticky top-0 z-50 bg-white ">
-      <Container className="flex items-center justify-between py-5 md:py-5 gap-x-3 md:gap-x-7 ">
+    <nav className="sticky top-0 z-50 bg-white/90 ">
+      <Container className="flex items-center justify-between py-5 md:py-4 gap-x-3 md:gap-x-7 ">
         <img onClick={()=>navigate("/")} src={logo} alt="" className="md:w-[190px] w-36 cursor-pointer" />
-        <div className="hidden md:inline-flex items-center gap-10 lg:gap-10 text-start uppercase ">
+        <div className="hidden md:inline-flex items-center gap-10 lg:gap-10 text-start uppercase border p-4 rounded-full ">
           {headerNavigation.map((item, index) => (
             <div key={index}>
               <NavLink
