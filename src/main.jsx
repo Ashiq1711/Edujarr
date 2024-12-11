@@ -1,15 +1,15 @@
-import { StrictMode } from 'react'
-import { createRoot } from 'react-dom/client'
-import './index.css'
-import App from './App.jsx'
+import { StrictMode } from "react";
+import { createRoot } from "react-dom/client";
+import "./index.css";
+import App from "./App.jsx";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
-import Rootlayout from './Layout/Rootlayout.jsx';
-import Courses from './Pages/Courses.jsx';
-import Blog from './Pages/Blog.jsx';
-import Shop from './Pages/Shop.jsx';
-import Pages from './Pages/Pages.jsx';
-import Events from './Pages/Events.jsx';
-import Home from './Pages/Home.jsx';
+import Rootlayout from "./Layout/Rootlayout.jsx";
+import Courses from "./Pages/Courses.jsx";
+import Blog from "./Pages/Blog.jsx";
+import Shop from "./Pages/Shop.jsx";
+import Pages from "./Pages/Pages.jsx";
+import Events from "./Pages/Events.jsx";
+import Home from "./Pages/Home.jsx";
 
 const router = createBrowserRouter([
   {
@@ -22,29 +22,28 @@ const router = createBrowserRouter([
       },
       {
         path: "/",
-        element: <Home/>,
+        element: <Home />,
       },
       {
         path: "/course",
-        element: <Courses/>,
+        element: <Courses />,
       },
       {
         path: "/blog",
-        element: <Blog/>,
+        element: <Blog />,
       },
       {
         path: "/shop",
-        element: <Shop/>,
+        element: <Shop />,
       },
       {
         path: "/pages",
-        element: <Pages/>,
+        element: <Pages />,
       },
       {
         path: "/events",
-        element: <Events/>,
+        element: <Events />,
       },
- 
     ],
   },
 ]);

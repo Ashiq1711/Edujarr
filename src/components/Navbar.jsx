@@ -19,12 +19,17 @@ import { FaSignInAlt } from "react-icons/fa";
 import Title from "./Title";
 import SocialIcons from "./SocialIcons";
 const Navbar = () => {
-  const navigate=useNavigate()
+  const navigate = useNavigate();
   let [isOpen, setIsOpen] = useState(false);
   return (
     <nav className="sticky top-0 z-50 bg-white/90 ">
       <Container className="flex items-center justify-between py-5 md:py-4 gap-x-3 md:gap-x-7 ">
-        <img onClick={()=>navigate("/")} src={logo} alt="" className="md:w-[190px] w-36 cursor-pointer" />
+        <img
+          onClick={() => navigate("/")}
+          src={logo}
+          alt=""
+          className="md:w-[190px] w-36 cursor-pointer"
+        />
         <div className="hidden md:inline-flex items-center gap-10 lg:gap-10 text-start uppercase border p-4 rounded-full ">
           {headerNavigation.map((item, index) => (
             <div key={index}>
@@ -52,43 +57,52 @@ const Navbar = () => {
             className="md:hidden block font-bold text-2xl cursor-pointer hover:text-primary transition ease-in-out duration-300 transform hover:scale-110"
           />
 
-<Dialog
-          open={isOpen}
-          onClose={() => setIsOpen(false)}
-          className="relative z-50"
-        >
-          <div className="fixed inset-0 md:hidden bg-black/70 flex items-center justify-center p-4">
-            <DialogPanel className="w-[94%] space-y-4 border-secondary border  bg-black/80 text-white p-8">
-             <div className="flex items-center justify-between">
-              <Title text1={"Menu"}/>
-              <IoMdClose onClick={() => setIsOpen(false)} className="text-3xl hover:text-red-600 hoverEffect cursor-pointer"/>
-             </div>
-           <div>
-            {headerNavigation?.map((item, index) => (
-             <NavLink onClick={() => setIsOpen(false)} to={item?.link} key={index} className="flex  duration-300 relative group  items-center gap-3 py-3">
-     
-              <p>{item?.icons}</p>
-        
+          <Dialog
+            open={isOpen}
+            onClose={() => setIsOpen(false)}
+            className="relative z-50"
+          >
+            <div className="fixed inset-0 md:hidden bg-black/70 flex items-center justify-center p-4">
+              <DialogPanel className="w-[94%] space-y-4 border-secondary border  bg-black/80 text-white p-8">
+                <div className="flex items-center justify-between">
+                  <Title text1={"Menu"} />
+                  <IoMdClose
+                    onClick={() => setIsOpen(false)}
+                    className="text-3xl hover:text-red-600 hoverEffect cursor-pointer"
+                  />
+                </div>
+                <div>
+                  {headerNavigation?.map((item, index) => (
+                    <NavLink
+                      onClick={() => setIsOpen(false)}
+                      to={item?.link}
+                      key={index}
+                      className="flex  duration-300 relative group  items-center gap-3 py-3"
+                    >
+                      <p>{item?.icons}</p>
 
-               <p className="text-lg">{item?.title}</p>
-               <span className="absolute w-full h-[1px] bg-white/20 left-0 -bottom-1 group-hover:bg-white duration-300"/>
-      
-
-             </NavLink>
-            ))}
-            <div className="mt-4">
-              <NavLink to="/signin" onClick={() => setIsOpen(false)} className="text-lg flex  duration-300 relative group items-center gap-3">
-              <FaSignInAlt />Signin
-              <span className="absolute w-full h-[1px] bg-white/20 left-0 -bottom-1 group-hover:bg-white duration-300"/>
-              </NavLink>
-              </div>
-           </div>
-           <div>
-            <SocialIcons/>
-           </div>
-            </DialogPanel>
-          </div>
-        </Dialog>
+                      <p className="text-lg">{item?.title}</p>
+                      <span className="absolute w-full h-[1px] bg-white/20 left-0 -bottom-1 group-hover:bg-white duration-300" />
+                    </NavLink>
+                  ))}
+                  <div className="mt-4">
+                    <NavLink
+                      to="/signin"
+                      onClick={() => setIsOpen(false)}
+                      className="text-lg flex  duration-300 relative group items-center gap-3"
+                    >
+                      <FaSignInAlt />
+                      Signin
+                      <span className="absolute w-full h-[1px] bg-white/20 left-0 -bottom-1 group-hover:bg-white duration-300" />
+                    </NavLink>
+                  </div>
+                </div>
+                <div>
+                  <SocialIcons />
+                </div>
+              </DialogPanel>
+            </div>
+          </Dialog>
         </div>
 
         <div className="md:flex hidden md:block font-font1 items-center gap-8">

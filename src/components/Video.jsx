@@ -1,7 +1,7 @@
 import React, { useEffect, useRef, useState } from "react";
 import videoImg from "../assets/videoImg.png";
 import videImgGrafic from "../assets/videoImgGrafic.png";
-import playbtn from '../assets/playbtn.png'
+import playbtn from "../assets/playbtn.png";
 // Handler hook for when Outside click dropdown close
 let useClickOutside = (handler) => {
   let domNode = useRef();
@@ -51,14 +51,12 @@ const Video = () => {
                   className="absolute z-20 flex h-20 w-20 items-center justify-center rounded-full bg-white/50 text-primary dark:bg-dark-2 dark:text-white md:h-[100px] md:w-[100px]"
                 >
                   <span className="absolute right-0 top-0 z-[-1] h-full w-full animate-ping rounded-full bg-white bg-opacity-20 delay-300 duration-1000"></span>
-              <img src={playbtn} alt="" />
+                  <img src={playbtn} alt="" />
                 </a>
               </div>
 
               <div>
-                <span className="absolute left-4 top-4 z-40">
-                
-                </span>
+                <span className="absolute left-4 top-4 z-40"></span>
                 <span className="absolute bottom-4 right-4 z-40">
                   <img className="w-32 md:w-full" src={videImgGrafic} alt="" />
                 </span>

@@ -4,8 +4,6 @@ import Title from "./Title";
 import { cardData2 } from "../constant";
 import Slider from "react-slick";
 
-
-
 const Categoty = () => {
   var settings = {
     dots: false,
@@ -21,26 +19,25 @@ const Categoty = () => {
           slidesToShow: 3,
           slidesToScroll: 3,
           infinite: true,
-          dots: true
-        }
+          dots: true,
+        },
       },
       {
         breakpoint: 600,
         settings: {
           slidesToShow: 2,
           slidesToScroll: 2,
-          initialSlide: 2
-        }
+          initialSlide: 2,
+        },
       },
       {
         breakpoint: 480,
         settings: {
           slidesToShow: 1,
-          slidesToScroll: 1
-        }
-      }
-    ]
-
+          slidesToScroll: 1,
+        },
+      },
+    ],
   };
   return (
     <div className="bg-custom2">
@@ -61,11 +58,12 @@ const Categoty = () => {
                 <div className="flex flex-col py-10 items-center pb-10">
                   <img className="w-14" src={item?.image} alt="" />
                   <div className="my-5 text-center">
-
-                  <h5 className=" text-[20px] font-font1 font-semibold text-gray-900 ">
-                    {item?.title}
-                  </h5>
-                  <p className=" text-[20px] font-font1 font-semibold text-gray-900 ">{item?.title2}</p>
+                    <h5 className=" text-[20px] font-font1 font-semibold text-gray-900 ">
+                      {item?.title}
+                    </h5>
+                    <p className=" text-[20px] font-font1 font-semibold text-gray-900 ">
+                      {item?.title2}
+                    </p>
                   </div>
                   <span className="text-sm font-font1 text-gray-500 ">
                     {item?.courses}

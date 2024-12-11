@@ -34,125 +34,116 @@ export const headerNavigation = [
 ];
 
 //card section
-export const cardData=[
+export const cardData = [
   {
-    title:"Motion Graphics: Create a Nice Typography Animation",
-    price:"$33.99",
-    students:'5,957 Students',
-    cartIcon:<IoCartOutline />,
+    title: "Motion Graphics: Create a Nice Typography Animation",
+    price: "$33.99",
+    students: "5,957 Students",
+    cartIcon: <IoCartOutline />,
     image: card1,
-    date:"Nov 20, 2022"
-
+    date: "Nov 20, 2022",
   },
   {
-    title:"Motion Graphics: Create a Nice Typography Animation",
-    price:"$33.99",
-    students:'5,957 Students',
-    cartIcon:<IoCartOutline />,
+    title: "Motion Graphics: Create a Nice Typography Animation",
+    price: "$33.99",
+    students: "5,957 Students",
+    cartIcon: <IoCartOutline />,
     image: card2,
-     date:"Nov 20, 2022"
-
+    date: "Nov 20, 2022",
   },
   {
-    title:"Motion Graphics: Create a Nice Typography Animation",
-    price:"$33.99",
-    students:'5,957 Students',
-    cartIcon:<IoCartOutline />,
+    title: "Motion Graphics: Create a Nice Typography Animation",
+    price: "$33.99",
+    students: "5,957 Students",
+    cartIcon: <IoCartOutline />,
     image: card3,
-     date:"Nov 20, 2022"
-
+    date: "Nov 20, 2022",
   },
   {
-    title:"Motion Graphics: Create a Nice Typography Animation",
-    price:"$33.99",
-    students:'5,957 Students',
-    cartIcon:<IoCartOutline />,
+    title: "Motion Graphics: Create a Nice Typography Animation",
+    price: "$33.99",
+    students: "5,957 Students",
+    cartIcon: <IoCartOutline />,
     image: card4,
-     date:"Nov 20, 2022"
-
+    date: "Nov 20, 2022",
   },
   {
-    title:"Motion Graphics: Create a Nice Typography Animation",
-    price:"$33.99",
-    students:'5,957 Students',
-    cartIcon:<IoCartOutline />,
+    title: "Motion Graphics: Create a Nice Typography Animation",
+    price: "$33.99",
+    students: "5,957 Students",
+    cartIcon: <IoCartOutline />,
     image: card5,
-     date:"Nov 20, 2022"
-
+    date: "Nov 20, 2022",
   },
   {
-    title:"Motion Graphics: Create a Nice Typography Animation",
-    price:"$33.99",
-    students:'5,957 Students',
-    cartIcon:<IoCartOutline />,
+    title: "Motion Graphics: Create a Nice Typography Animation",
+    price: "$33.99",
+    students: "5,957 Students",
+    cartIcon: <IoCartOutline />,
     image: card6,
-     date:"Nov 20, 2022"
-
+    date: "Nov 20, 2022",
   },
   {
-    title:"Motion Graphics: Create a Nice Typography Animation",
-    price:"$33.99",
-    students:'5,957 Students',
-    cartIcon:<IoCartOutline />,
+    title: "Motion Graphics: Create a Nice Typography Animation",
+    price: "$33.99",
+    students: "5,957 Students",
+    cartIcon: <IoCartOutline />,
     image: card1,
-    date:"Nov 20, 2022"
-
+    date: "Nov 20, 2022",
   },
   {
-    title:"Motion Graphics: Create a Nice Typography Animation",
-    price:"$33.99",
-    students:'5,957 Students',
-    cartIcon:<IoCartOutline />,
+    title: "Motion Graphics: Create a Nice Typography Animation",
+    price: "$33.99",
+    students: "5,957 Students",
+    cartIcon: <IoCartOutline />,
     image: card2,
-     date:"Nov 20, 2022"
-
+    date: "Nov 20, 2022",
   },
   {
-    title:"Motion Graphics: Create a Nice Typography Animation",
-    price:"$33.99",
-    students:'5,957 Students',
-    cartIcon:<IoCartOutline />,
+    title: "Motion Graphics: Create a Nice Typography Animation",
+    price: "$33.99",
+    students: "5,957 Students",
+    cartIcon: <IoCartOutline />,
     image: card3,
-     date:"Nov 20, 2022"
-
+    date: "Nov 20, 2022",
   },
-]
+];
 //courses section
-export const cardData2=[
+export const cardData2 = [
   {
     image: Ccard1,
     title: "Digta ",
-    title2:"Marketing",
-    courses:"25 Courses"
+    title2: "Marketing",
+    courses: "25 Courses",
   },
   {
     image: Ccard2,
     title: "Web ",
-    title2:"Development",
-    courses:"16 Courses"
+    title2: "Development",
+    courses: "16 Courses",
   },
   {
     image: Ccard3,
     title: "Art & ",
-    title2:"Humanities",
-    courses:"76 Courses"
+    title2: "Humanities",
+    courses: "76 Courses",
   },
   {
     image: Ccard4,
     title: "Personal ",
-    title2:"Development",
-    courses:"25 Courses",
+    title2: "Development",
+    courses: "25 Courses",
   },
   {
     image: Ccard5,
     title: "IT and ",
-    title2:"Software",
-    courses:"125 Courses"
+    title2: "Software",
+    courses: "125 Courses",
   },
   {
     image: Ccard6,
     title: "Graphic ",
-    title2:"Design",
-    courses:"215 Courses"
+    title2: "Design",
+    courses: "215 Courses",
   },
-]
+];
