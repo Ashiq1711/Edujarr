@@ -134,7 +134,7 @@ const Banner = () => {
                       placeholder="What do you want to learn today?"
                     />
 
-                    <button className="md:px-4 md:py-2 flex items-center gap-2 absolute right-2 md:right-4 top-[50%] -translate-y-[50%] bg-custom-gradient text-white rounded-md  ">
+                    <button className="md:px-4 px-2 md:py-2 flex items-center gap-2 absolute right-2 md:right-4 top-[50%] -translate-y-[50%] bg-custom-gradient text-white rounded-md  ">
                       <IoSearch />
                       Signup
                     </button>
@@ -206,7 +206,7 @@ const Banner = () => {
                       placeholder="What do you want to learn today?"
                     />
 
-                    <button className="md:px-4 md:py-2 flex items-center gap-2 absolute right-2 md:right-4 top-[50%] -translate-y-[50%] bg-custom-gradient text-white rounded-md  ">
+                    <button className="md:px-4 px-2 md:py-2 flex items-center gap-2 absolute right-2 md:right-4 top-[50%] -translate-y-[50%] bg-custom-gradient text-white rounded-md  ">
                       <IoSearch />
                       Signup
                     </button>
@@ -278,7 +278,7 @@ const Banner = () => {
                       placeholder="What do you want to learn today?"
                     />
 
-                    <button className="md:px-4 md:py-2 flex items-center gap-2 absolute right-2 md:right-4 top-[50%] -translate-y-[50%] bg-custom-gradient text-white rounded-md  ">
+                    <button className="md:px-4 px-2 md:py-2 flex items-center gap-2 absolute right-2 md:right-4 top-[50%] -translate-y-[50%] bg-custom-gradient text-white rounded-md  ">
                       <IoSearch />
                       Signup
                     </button>
